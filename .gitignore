@@ -1,0 +1,13 @@
+node_modules/
+.DS_Store
+*.log
+
+# 运行产物与本地配置
+server/.env
+server/uploads/
+miniprogram/node_modules/
+
+# 编辑器
+.vscode/
+.idea/
+*.swp
