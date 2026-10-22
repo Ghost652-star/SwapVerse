@@ -1,0 +1,20 @@
+{
+  "name": "yiyiwu-server",
+  "version": "0.1.0",
+  "private": true,
+  "description": "易易物校园物品交换平台服务端",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "node src/app.js",
+    "dev": "node --watch src/app.js"
+  },
+  "dependencies": {
+    "axios": "^1.7.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.0",
+    "express": "^4.21.0",
+    "jsonwebtoken": "^9.0.2",
+    "multer": "^1.4.5-lts.1",
+    "mysql2": "^3.11.0"
+  }
+}
