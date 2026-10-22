@@ -1,0 +1,11 @@
+<view class="item-card card" bindtap="onTap">
+  <image class="cover" src="{{base}}{{goods.cover}}" mode="aspectFill" />
+  <view class="info">
+    <view class="title">{{goods.title}}</view>
+    <view class="expect">想换：{{goods.expect || '不限'}}</view>
+    <view class="meta">
+      <text class="condition">{{goods.condition}}</text>
+      <text class="time">{{goods.createdAt}}</text>
+    </view>
+  </view>
+</view>

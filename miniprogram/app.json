@@ -1,0 +1,33 @@
+{
+  "pages": [
+    "pages/home/home",
+    "pages/post/post",
+    "pages/mine/mine",
+    "pages/auth/auth",
+    "pages/browse/browse",
+    "pages/item/item",
+    "pages/trade/trade",
+    "pages/manage/manage",
+    "pages/my-items/my-items",
+    "pages/my-likes/my-likes",
+    "pages/my-comments/my-comments"
+  ],
+  "window": {
+    "navigationBarBackgroundColor": "#07c160",
+    "navigationBarTitleText": "易易物",
+    "navigationBarTextStyle": "white",
+    "backgroundColor": "#f5f6f7"
+  },
+  "tabBar": {
+    "color": "#999999",
+    "selectedColor": "#07c160",
+    "backgroundColor": "#ffffff",
+    "list": [
+      { "pagePath": "pages/home/home", "text": "首页" },
+      { "pagePath": "pages/post/post", "text": "发布" },
+      { "pagePath": "pages/mine/mine", "text": "我的" }
+    ]
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

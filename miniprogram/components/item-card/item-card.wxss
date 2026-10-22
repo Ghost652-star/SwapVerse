@@ -1,0 +1,57 @@
+.item-card {
+  display: flex;
+  padding: 20rpx;
+  margin: 0 24rpx 20rpx;
+}
+
+.cover {
+  width: 200rpx;
+  height: 200rpx;
+  border-radius: 12rpx;
+  background: #f0f0f0;
+  flex-shrink: 0;
+}
+
+.info {
+  flex: 1;
+  margin-left: 20rpx;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  overflow: hidden;
+}
+
+.title {
+  font-size: 30rpx;
+  font-weight: 600;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.expect {
+  font-size: 24rpx;
+  color: #07c160;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.meta {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.condition {
+  font-size: 22rpx;
+  color: #fa8c16;
+  background: #fff7e8;
+  padding: 2rpx 14rpx;
+  border-radius: 8rpx;
+}
+
+.time {
+  font-size: 22rpx;
+  color: #bbb;
+}

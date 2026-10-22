@@ -1,0 +1,4 @@
+{
+  "desc": "易易物 sitemap",
+  "rules": [{ "action": "allow", "page": "*" }]
+}
